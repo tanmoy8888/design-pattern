@@ -7,6 +7,7 @@ public class MainCaller {
         editor.write("Hello");
         editor.save();
         editor.write("World");
+        editor.save();
         history.getHistory();
         editor.write(" , have a good day.");
         editor.save();

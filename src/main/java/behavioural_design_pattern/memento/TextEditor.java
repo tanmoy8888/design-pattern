@@ -1,7 +1,7 @@
 package behavioural_design_pattern.memento;
 
 public class TextEditor {
-    private String text;
+    private String text="";
     private TextHistory textHistory;
 
     public TextEditor(TextHistory textHistory){
