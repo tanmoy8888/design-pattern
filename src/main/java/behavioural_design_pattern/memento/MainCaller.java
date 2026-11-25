@@ -6,6 +6,7 @@ public class MainCaller {
         TextEditor editor = new TextEditor(history);
         editor.write("Hello");
         editor.save();
+        history.getHistory();
         editor.write("World");
         editor.save();
         history.getHistory();
@@ -13,7 +14,6 @@ public class MainCaller {
         editor.save();
         history.getHistory();
         editor.restore();
-        editor.save();
         history.getHistory();
 
     }

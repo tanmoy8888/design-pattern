@@ -15,8 +15,17 @@ public class TextHistory {
     }
 
     public TextMemento undo(){
-        this.list.remove(list.size()-1);
-        return list.get(list.size()-1);
+        if (list.isEmpty()) {
+            return null;
+        }
+
+        list.remove(list.size() - 1);
+
+        if (list.isEmpty()) {
+            return null;
+        }
+
+        return list.get(list.size() - 1);
     }
 
     public void getHistory(){
