@@ -22,4 +22,11 @@ public class Television implements DeviceObserver{
     public int hashCode() {
         return Objects.hashCode(temperature);
     }
+
+    @Override
+    public String toString() {
+        return "Television{" +
+                "temperature=" + temperature +
+                '}';
+    }
 }

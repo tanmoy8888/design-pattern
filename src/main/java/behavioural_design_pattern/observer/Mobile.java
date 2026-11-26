@@ -22,4 +22,11 @@ public class Mobile implements DeviceObserver{
     public int hashCode() {
         return Objects.hashCode(temperature);
     }
+
+    @Override
+    public String toString() {
+        return "Mobile{" +
+                "temperature=" + temperature +
+                '}';
+    }
 }

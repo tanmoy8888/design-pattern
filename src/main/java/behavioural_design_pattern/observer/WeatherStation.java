@@ -23,6 +23,9 @@ public class WeatherStation {
         this.temperature = temperature;
         notifyAllDevice();
     }
+    public void showDevices(){
+
+    }
     private void notifyAllDevice(){
         for (DeviceObserver observer : this.list){
             observer.notifyDevice(this.temperature);

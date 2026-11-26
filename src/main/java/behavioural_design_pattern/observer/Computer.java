@@ -19,7 +19,15 @@ public class Computer implements DeviceObserver{
     }
 
     @Override
+    public String toString() {
+        return "Computer{" +
+                "temperature=" + temperature +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hashCode(temperature);
     }
+
 }
