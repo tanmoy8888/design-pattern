@@ -1,6 +1,6 @@
 package behavioural_design_pattern.memento;
 
-public class MainCaller {
+public class MementoCaller {
     public static void main(String[] args) {
         TextHistory history = new TextHistory();
         TextEditor editor = new TextEditor(history);
