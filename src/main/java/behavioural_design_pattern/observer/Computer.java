@@ -8,7 +8,7 @@ public class Computer implements DeviceObserver{
     @Override
     public void notifyDevice(int temperature) {
             this.temperature = temperature;
-            System.out.println("Television temperature ::"+this.temperature);
+            System.out.println("Computer temperature ::"+this.temperature);
     }
 
     @Override

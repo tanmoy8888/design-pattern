@@ -24,7 +24,8 @@ public class WeatherStation {
         notifyAllDevice();
     }
     public void showDevices(){
-
+        System.out.println("---------------Show all available devices-------------------");
+        System.out.println(this.list);
     }
     private void notifyAllDevice(){
         for (DeviceObserver observer : this.list){

@@ -8,7 +8,7 @@ public class Mobile implements DeviceObserver{
     @Override
     public void notifyDevice(int temperature) {
             this.temperature = temperature;
-            System.out.println("Television temperature ::"+this.temperature);
+            System.out.println("Mobile temperature ::"+this.temperature);
     }
 
     @Override
