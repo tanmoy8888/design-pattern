@@ -10,4 +10,8 @@ public class DiscountService {
     public void applyStrategy(DiscountStrategy discountStrategy){
         this.discountStrategy=discountStrategy;
     }
+
+    public void showDiscountStrategy(){
+        this.discountStrategy.calculate();
+    }
 }
